@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
   annotations:
     # 1. 감시할 이미지 설정 (별칭:이미지경로)
-    argocd-image-updater.argoproj.io/image-list: auth=harbor.greenart.n-e.kr/momoolggo/auth-service
+    argocd-image-updater.argoproj.io/image-list: auth=harbor.greenart.n-e.kr/momoolggo/mmg-auth-service
     
     # 2. 업데이트 전략: 빌드 시간이 가장 최신인 이미지를 선택
     argocd-image-updater.argoproj.io/auth.update-strategy: newest-build

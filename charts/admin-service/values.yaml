@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   # Harbor 경로 입력
-  repository: harbor.greenart.n-e.kr/momoolggo/admin-service 
+  repository: harbor.greenart.n-e.kr/momoolggo/mmg-admin-service 
   pullPolicy: IfNotPresent
   # 이 tag 부분이 Image Updater에 의해 자동으로 업데이트됩니다.
   tag: "3" 
