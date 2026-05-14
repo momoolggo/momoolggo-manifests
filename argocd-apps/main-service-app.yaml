@@ -18,7 +18,7 @@ spec:
   source:
     # 권준하님의 매니페스트 레포지토리 주소
     repoURL: https://github.com/momoolggo/momoolggo-manifests.git
-    targetRevision: main
+    targetRevision: master
     path: ./charts/main-service # 실제 Helm 차트나 YAML이 있는 경로
   destination:
     server: https://kubernetes.default.svc

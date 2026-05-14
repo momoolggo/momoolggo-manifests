@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/momoolggo/momoolggo-manifests.git
-    targetRevision: main
+    targetRevision: master
     path: ./charts/vue-fe # 프론트엔드용 Helm 차트 경로
   destination:
     server: https://kubernetes.default.svc
