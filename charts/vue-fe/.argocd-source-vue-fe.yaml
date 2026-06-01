@@ -4,5 +4,5 @@ helm:
     value: harbor.greenart.n-e.kr/momoolggo/vue-fe
     forcestring: true
   - name: image.tag
-    value: "54"
+    value: "55"
     forcestring: true
