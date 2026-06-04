@@ -1,7 +1,7 @@
 helm:
   parameters:
   - name: image.tag
-    value: "28"
+    value: "29"
     forcestring: true
   - name: image.name
     value: harbor.greenart.n-e.kr/momoolggo/mmg-admin-service
