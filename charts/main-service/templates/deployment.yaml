@@ -38,3 +38,10 @@ spec:
               port: {{ .Values.service.targetPort }}
             initialDelaySeconds: 30
             periodSeconds: 10
+          volumeMounts:
+            - name: shared-download-storage
+              mountPath: /home/download
+      volumes:
+        - name: shared-download-storage
+          persistentVolumeClaim:
+            claimName: team-shared-pvc
